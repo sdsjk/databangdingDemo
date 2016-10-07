@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         binding.setStu(new Student("TOM"));
         Log.e("TAG", "1111777777777777777777777777777777");
+        System.out.print(true);
         Log.e("TAG","1111222222222222222222222");
     }
 }
